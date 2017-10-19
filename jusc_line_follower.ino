@@ -7,7 +7,7 @@ int ir_pins[]={8,9,10,11,12,13};
 void setup(){
   int pins;
   for(pins=0;pins<6;pins++)
-    pinMode(ir_pins[pins],OUTPUT);
+    pinMode(ir_pins[pins], INTPUT);
   Serial.begin(9600);
 }
 void goAhead(){
